@@ -1,0 +1,80 @@
+*{  margin:0;
+    padding:0;
+    box-sizing : border-box;
+  
+}
+.Tmain{
+    margin: auto;
+    width: 60%;
+     background-color: #5c5174; 
+}
+.container{
+    padding: 8px;
+}
+.thead10{
+    text-align: center; 
+    display: flex;
+    margin-top: 27px;
+    margin-left: -31px;
+}
+
+.ten{
+    text-align: right;
+font-size: 27px;
+    width: 50%;
+    color:white;
+}
+.min{
+    margin-top:8px;
+    font-size: 31px;
+    width: auto;
+text-align: left;
+color:white;
+}
+.thead{
+    text-align: center;
+    color:white;
+}
+.eng{
+    font-size: 75px;
+   
+}
+.spo{
+    font-size: 60px;
+   
+}
+.grammer{
+    display: inline-block;
+    background: rgb(70, 114, 149);
+    padding: 8px 18px;
+    border-radius: 5px;
+}
+
+.last{
+    display: flex;
+}
+
+.Lside{
+    text-align: left;
+    width: 50%;
+    padding: 30px;
+    color:white;
+}
+.Lside p::before{	
+  content:'\2713';
+  color: bisque;
+}
+.Rside{
+    text-align: right;
+    width: auto;
+}
+.Rside img{
+
+    display: block;
+    height: 500px;
+    max-width: 100%;
+    margin: auto;
+    object-fit: cover;
+    object-position: right;
+    
+}
